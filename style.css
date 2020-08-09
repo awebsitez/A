@@ -1,0 +1,146 @@
+/*
+    theme name:HTML5;
+date: AUGEST 2020;
+discreption:learn basic HTML5;
+Author:ANAS LBAIDI;
+Author URL:http://www.endzone-server.com;
+*/
+
+body {
+    background-image: url("media/body.jpg");
+	color: #000305
+	font-size: 90%;
+	font-family:tahoma, "lucida sans Unicode";
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {text-decoration: none;}
+a:link, a:visited {color: #EA2027 ;}
+a:hover, a:active {color: #fbc531 ;}
+
+.body{
+	margin: 15% auto;
+	width: 70%;
+	clear:both;
+}
+
+
+
+/*-------------------------MAIN HEADER-----------------------*/
+
+.mainheader p {
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	width: 100%;
+}
+
+.mainheader img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.mainheader nav {
+	background-color: #a4b0be ;
+	height: 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainheader nav ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+
+
+.mainheader nav ul li {
+	display: inline;
+
+}
+
+.mainheader a:link, .mainheader a:visited{
+	color: white;
+	padding: 5px 100px;
+	border-radius: 5px;
+	display: inline-block;
+	height:20px;
+}
+.mainheader a:hover, .mainheader a:active{
+	color: white;
+	background-color:black ;
+	text-shadow: none;
+
+	}
+/*-----------------------MAIN CONTENT-------------------------*/
+
+.mainContent{
+	width: 70%;
+	float: left;
+}
+
+.top-content{
+	background-color: #f5f5f5;
+	padding: 3%
+	margin-top: 30%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.post-info{
+	font-size: 90%;
+	color: #7f997c;
+	font-style: italic;
+	margin-top: -20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.post-content{
+	display: inline;
+}
+
+
+/*-----------------------SIDE BAR-------------------------*/
+
+.thesidbar{
+	width: 28%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: -2%;
+	background-color: #ffff;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.thesidbar img {
+	background-color: #ffff;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+/*------------------------FOOTER--------------------------*/
+
+.footer {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background-color: white ;
+	height: 60px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.footer p {
+	text-align: center;	
+	color: black;
+	width: 100%;
+}

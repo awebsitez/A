@@ -1,0 +1,47 @@
+/*---------------------CSS3 FOR MOBIL---------------------*/
+
+@media screen and (max-width: 480px) {
+	    .body{
+	    width: 90%;
+	    font-size: 95%
+    }
+}
+
+/*-------------------MAIN HEADER MOBILE-------------------*/
+
+
+.mainheader nav {
+	height: 60px;
+}
+
+.mainheader ul{
+	width: 100%;
+	padding: 0 ;
+}
+
+
+.mainheader nav ul li {
+	display: inline;
+
+}
+
+.mainheader a:link, .mainheader a:visited{
+	display: inline-block;
+}
+.mainheader a:hover, .mainheader a:active{
+	color: white;
+	background-color:black ;
+	text-shadow: none;
+}
+
+/*------------------MAIN CONTENT MOBILE-------------------*/
+
+.mainContent{
+	width: 100%;
+}
+/*--------------------SIDE BAR MOBILE---------------------*/
+
+.thesidbar{
+	width: 80%;
+	margin: 10% ;
+}
