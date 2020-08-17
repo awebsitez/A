@@ -1,0 +1,179 @@
+/*
+    theme name:HTML5;
+date: AUGEST 2020;
+discreption:learn basic HTML5;
+Author:ANAS LBAIDI;
+Author URL:http://www.endzone-server.com;
+*/
+
+body {
+	/*background-image: url("media/cta-black.jpg");*/
+	background-color: #353b48;
+	color: #000305
+	font-size: 80%;
+	font-family:tahoma, "lucida sans Unicode";
+	line-height: 1.5;
+	text-align: left;
+}
+.body{
+	margin: 15% auto;
+	width: 90%;
+	clear:both;
+}
+.middle {
+	margin: 8px;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate( -50%,-50%);
+}
+
+.btn {
+	color: #fff;
+	background: none;
+	border: 2px solid #fff;
+	font-family: "Montserrat",sans-serif;
+	text-transform: uppercase;
+	padding: 12px 15px;
+	cursor: pointer;
+	 transition: color 0.4s linear;
+	 position: relative;
+}
+.btn:hover {
+	color: green;
+}
+.btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#fff;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn2::before {
+	transform: scaleX(0);
+}
+.btn3::before {
+	transform: scaleX(0);
+}
+.btn4::before {
+	transform: scaleX(0);
+}
+.btn5::before {
+	transform: scaleX(0);
+}
+
+
+.btn2:hover::before {
+	transform: scaleX(1);
+}
+.btn3:hover::before {
+	transform: scaleX(1);
+}
+.btn4:hover::before {
+	transform: scaleX(1);
+}
+.btn5:hover::before {
+	transform: scaleX(1);
+}
+/*-------------------------MAIN HEADER-----------------------*/
+
+.mainheader p {
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+}
+
+.mainheader img {
+	width: 100%;
+	border-radius: 5px;
+}
+.thesidbar h1 {
+	/*background-image: url(media/cta-white.jpg);*/
+	background-color: #aaa69d;
+}
+/*-----------------------MAIN CONTENT-------------------------*/
+
+.mainContent{
+	width: 70%;
+	float: left;
+}
+
+.top-content{
+	/*background-image:url(media/cta-white.jpg);*/
+	background-color: #aaa69d;
+	padding: 3%
+	margin-top: 30%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.post-info{
+	font-size: 90%;
+	color: #7f997c;
+	font-style: italic;
+	margin-top: -20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.post-content{
+	display: inline;
+}
+.h1 {
+	color: #fff;
+	font-size: 20px;
+	font-style: tahoma;
+	text-align: center;
+}
+/*-----------------------SIDE BAR-------------------------*/
+
+.thesidbar{
+	width: 28%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: -2%;
+	/*background-image:url(media/cta-white.jpg);*/
+	background-color: #aaa69d;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.thesidbar img {
+	/*background-image:url(media/cta-white.jpg);*/
+	background-color: #aaa69d;
+	border-radius: 5px;
+	height: 28%;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/*------------------------FOOTER--------------------------*/
+
+.footer {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background-color: #aaa69d;
+	/*background-image:url(media/cta-white.jpg);*/
+	height: 60px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.footer p {
+	text-align: center;	
+	color: black;
+	width: 100%;
+}
